@@ -1,0 +1,26 @@
+#weather {
+  // border: solid 5px lightskyblue;
+  text-align: center;
+  background-color: #008080;
+  color: #ccff33;
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: Calibri;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+
+}
+
+body {
+  text-align: center;
+}
+
+input {
+  background-color: #00cccc;
+}
+
+button {
+  background-color: #00cccc;
+}
