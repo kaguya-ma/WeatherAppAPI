@@ -1,26 +1,84 @@
+@font-face {
+  font-family: Roboto;
+  src: url(Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: RobotoBold;
+  src: url(Roboto-Bold.ttf);
+}
+
 #weather {
   // border: solid 5px lightskyblue;
   text-align: center;
-  background-color: #008080;
-  color: #ccff33;
+  background-color: white;
+  color: black;
   display: block;
   margin-left: 10%;
   margin-right: 10%;
-  font-family: Calibri;
+  font-family: Roboto;
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 10px;
+  border-radius: 1%;
 
 }
 
 body {
   text-align: center;
+  font-family: Roboto;
+  background-color:  #004080;
+  color: white;
 }
 
 input {
-  background-color: #00cccc;
+  border: none;
+  -webkit-appearance: none;
+  background: none;
+  outline: none;
+  color: white;
+  border-bottom: solid 2px white;
 }
 
 button {
-  background-color: #00cccc;
+  
+  cursor: pointer;
+  background-color: red;
+  outline: none;
+  color: white;
+
+  
+}
+
+
+#country {
+  color: white;
+  background-color: orangered;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 40%;
+}
+
+h1 {
+  font-family: RobotoBold;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+#temp {
+  font-size: 4rem;
+}
+
+#deg {
+  font-size: 2rem;
+}
+
+img {
+  width: 100px;
+  height: 100px;
 }
