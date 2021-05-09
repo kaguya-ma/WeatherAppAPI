@@ -44,3 +44,21 @@ function draw(data) {
   }
 
 }
+
+function startWeather() {
+  let cityName = "London"
+
+  let apiKey = "9cf99e77444fe80d43c39141f4b8321e"
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}`)
+      .then(function(resp) { return resp.json()})
+      .then(function(data) {
+        console.log(data);
+        draw(data)
+      })
+
+      .catch(function() {
+
+      })
+
+
+}
