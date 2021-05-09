@@ -16,7 +16,7 @@
   display: block;
   margin-left: 10%;
   margin-right: 10%;
-  font-family: Roboto;
+  font-family: Roboto, serif;
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 10px;
@@ -26,10 +26,10 @@
 
 body {
   text-align: center;
-  font-family: Roboto;
+  font-family: Roboto, serif;
   background-color:  #004080;
   color: white;
-}
+} 
 
 input {
   border: none;
@@ -41,13 +41,18 @@ input {
 }
 
 button {
-  
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
   cursor: pointer;
-  background-color: red;
-  outline: none;
-  color: white;
-
-  
+  white-space: nowrap;
+  background-color: #04AA6D;
+  border-radius: 5px;
 }
 
 
@@ -62,7 +67,7 @@ button {
 }
 
 h1 {
-  font-family: RobotoBold;
+  font-family: RobotoBold, serif;
 }
 
 ::placeholder {
